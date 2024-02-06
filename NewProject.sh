@@ -121,3 +121,30 @@ meter {
 :where([draggable=\"true\"]) {
     -webkit-user-drag: element;
 }
+
+/* Revert Modal native behavior */
+:where(dialog:modal) {
+    all: revert;
+}
+
+
+" >> style.css
+
+
+echo "console.log(\"Hello World !!\") " >> app.js
+
+cd .. 
+
+
+# mkdir BackEnd
+
+
+mkdir BackEnd
+
+cd BackEnd 
+
+mkdir scr 
+
+npm init -y
+
+
