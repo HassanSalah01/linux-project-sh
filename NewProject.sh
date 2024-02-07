@@ -25,6 +25,7 @@ echo "<!DOCTYPE html>
 </body>
 </html>
 " >> index.html
+
 echo "
 @charset \"utf-8\";
 /***
@@ -69,6 +70,7 @@ img {
 table {
     border-collapse: collapse;
 }
+
 /* Safari - solving issue when using user-select:none on the <body> text input doesn't working */
 input, textarea {
     -webkit-user-select: auto;
