@@ -148,5 +148,7 @@ cd BackEnd
 mkdir scr 
 
 npm init -y
-
+npm i -D typescript
+npm i -D ts-node
+npm i -D nodemon
 
